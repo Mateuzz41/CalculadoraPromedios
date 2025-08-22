@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24sp"
+    android:background="@color/verdecito"
+    android:gravity="center_horizontal"
+    tools:context=".MainActivity"
+    android:id="@+id/main">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:text="Calculator Notes"
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:id="@+id/etCalification1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nota de Matematicas"
+        android:inputType="numberDecimal" android:layout_marginBottom="16dp" />
+
+    <EditText
+        android:id="@+id/etCalification2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:hint="Nota de Comunicación"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/etCalification3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nota de Ciencias"
+        android:inputType="numberDecimal" android:layout_marginBottom="16dp" />
+
+    <Button
+        android:id="@+id/btnCalcular"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/marron"
+        android:text="Calcular Promedio" />
+
+    <TextView
+        android:id="@+id/tvResultado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        android:text="El promedio es : " />
+
+</LinearLayout>
