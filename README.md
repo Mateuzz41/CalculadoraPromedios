@@ -15,14 +15,6 @@ Este proyecto te permite calcular el **promedio de tus notas** de manera rápida
 
 ---
 
-## 🛠️ Tecnologías utilizadas
-
-- **HTML** → estructura de la aplicación  
-- **CSS** → diseño y estilos visuales  
-- **JavaScript** → lógica del cálculo  
-
----
-
 ## 📌 Cómo usarla
 
 1. Ingresa tus notas en los campos correspondientes ✍️  
